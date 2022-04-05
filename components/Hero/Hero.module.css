@@ -1,0 +1,33 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  width: 50%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.hero-text > h1 {
+  font-size: 4rem;
+  font-weight: 1000;
+  line-height: 1;
+}
+.hero-text > h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px solid var(--sec-color);
+}
+
+.dot-grid-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 50%;
+}

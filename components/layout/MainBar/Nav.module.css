@@ -1,0 +1,44 @@
+.main-nav {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.projects-link {
+  height: 6vh;
+  padding: 0 1rem;
+  cursor: pointer;
+
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.25s ease-in-out;
+
+  border-radius: 0.5rem 0 0.5rem 0;
+}
+
+.projects-link:hover {
+  /* text-decoration: underline; */
+  /* border-bottom: 2px solid var(--light-text-2); */
+  background-color: var(--light-text-2);
+}
+.cv-icon {
+  color: var(--prim-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

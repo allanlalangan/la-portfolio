@@ -1,0 +1,5 @@
+.projects-title a:hover,
+.projects-title a:focus,
+.projects-title a:active {
+  text-decoration: underline;
+}
