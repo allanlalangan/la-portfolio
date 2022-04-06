@@ -1,10 +1,10 @@
-import styles from './Projects.module.css';
+import Projects from '../../components/Projects/Projects';
 
-const Projects = () => {
+const ProjectsPage = () => {
   return (
-    <div>
-      <h1 className={styles['projects-title']}>Projects</h1>
-    </div>
+    <>
+      <Projects />
+    </>
   );
 };
-export default Projects;
+export default ProjectsPage;

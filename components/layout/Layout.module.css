@@ -1,4 +1,4 @@
 .page-content {
-  height: 90vh;
+  height: var(--content-height);
   width: 100%;
 }

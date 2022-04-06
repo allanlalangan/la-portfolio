@@ -4,7 +4,10 @@
   justify-content: flex-start;
 }
 
+.banner-icon {
+  font-size: 8vh;
+}
 .banner > h2 {
-  line-height: 1;
-  font-weight: 1000;
+  font-size: 2rem;
+  font-weight: 400;
 }

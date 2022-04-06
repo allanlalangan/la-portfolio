@@ -1,10 +1,11 @@
 .main-bar {
   width: 100vw;
-  height: 10vh;
-  padding: 0 1rem;
+  height: var(--bar-height);
+
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: var(--header-shadow);
-  background-color: var(--light-header-bg);
+  /* box-shadow: var(--header-shadow); */
+  background-color: var(--default-header-bg);
+  /* background: var(--gradient); */
 }

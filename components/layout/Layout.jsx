@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
         <Banner />
         <Nav />
       </MainBar>
-      <main className={styles['main-content']}>{children}</main>
+      <main className={`${styles['page-content']}`}>{children}</main>
     </>
   );
 };
