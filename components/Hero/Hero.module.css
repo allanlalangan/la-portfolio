@@ -15,7 +15,6 @@
 }
 
 .hero-text > h1 {
-  color: var(--prim-color);
   font-size: 4rem;
   font-weight: 1000;
   line-height: 1;
@@ -23,7 +22,7 @@
 .hero-text > h3 {
   text-transform: uppercase;
   letter-spacing: 2px;
-  border-bottom: 2px solid var(--ter-color);
+  border-bottom: 2px solid var(--sec-color);
 }
 
 .dot-grid-container {

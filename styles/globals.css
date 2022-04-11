@@ -8,13 +8,13 @@
   --bar-height: calc(100vh - var(--content-height));
 
   /* COLOR SCHEME */
-  --prim-color: hsl(205, 100%, 25%);
+  --prim-color: hsl(210, 75%, 30%);
   --sec-color: hsl(185, 75%, 70%);
+  /* --ter-color: hsl(250, 75%, 65%); */
   --ter-color: hsl(20, 100%, 75%);
-  --color-purple: hsl(250, 70%, 40%);
 
   /* default theme */
-  --light-bg: hsl(205, 15%, 90%);
+  --light-bg: hsl(205, 20%, 85%);
   --default-header-bg: hsl(205, 35%, 90%);
   --dark-text: var(--prim-color);
   --dark-acc: hsl(200, 100%, 10%);
@@ -43,7 +43,7 @@
   --button-active: inset -2.5px 5px 0.75rem 0rem rgba(0, 0, 0, 0.25);
   --button-glow: hsl(149, 85%, 60%);
 
-  --dot-size: 2px;
+  --dot-size: 1px;
   --dot-spacing: calc(100vh / 25);
 }
 
