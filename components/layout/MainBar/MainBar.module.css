@@ -6,6 +6,6 @@
   align-items: center;
   justify-content: space-between;
   /* box-shadow: var(--header-shadow); */
-  background-color: transparent;
+  background-color: black;
   /* background: var(--gradient); */
 }

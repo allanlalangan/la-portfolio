@@ -4,10 +4,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-bottom: 5px solid var(--ter-color);
 }
 
 .links {
-  color: var(--sec-color);
   height: calc(var(--bar-height) - 2rem);
   display: flex;
   justify-content: center;
@@ -15,12 +15,13 @@
 }
 
 .nav-link {
-  color: var(--prim-color);
+  opacity: 0.5;
+  color: var(--light-bg);
   padding: 0 2rem;
   cursor: pointer;
 
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
 
@@ -31,7 +32,8 @@
 }
 
 .nav-link:hover {
-  color: var(--sec-color);
+  opacity: 1;
+  color: var(--ter-color);
   /* box-shadow: var(--button-shadow); */
 }
 .nav-link:active {
