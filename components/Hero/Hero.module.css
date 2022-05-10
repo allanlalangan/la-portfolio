@@ -7,13 +7,14 @@
 
 .hero-text {
   z-index: 2;
-  background-color: var(--light-bg);
+  background-color: var(--light-grey);
   width: 50%;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  box-shadow: var(--box-shadow);
 }
 
 .hero-text > h1 {

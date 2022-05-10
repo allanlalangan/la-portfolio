@@ -16,7 +16,7 @@
 
 .nav-link {
   opacity: 0.5;
-  color: var(--light-bg);
+  color: var(--light-grey);
   padding: 0 2rem;
   cursor: pointer;
 
