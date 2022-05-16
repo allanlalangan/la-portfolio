@@ -4,12 +4,13 @@
 
 :root {
   /* layout */
-  --content-height: 93vh;
+  --content-height: 94vh;
   --bar-height: calc(100vh - var(--content-height));
 
   /* COLOR SCHEME */
-  --prim-color: hsl(230, 40%, 20%);
-  --sec-color: hsl(205, 50%, 40%);
+  --prim-dark: hsl(235, 50%, 15%);
+  --prim-color: hsl(345, 60%, 65%);
+  --sec-color: hsl(250, 50%, 40%);
   --ter-color: hsl(205, 60%, 60%);
   /* default theme */
   --light-grey: hsl(40, 15%, 95%);
@@ -53,13 +54,13 @@
 
 body {
   font-family: 'Work Sans';
-  /* background-color: white; */
-  /* background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); */
-  /* background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%); */
+  background-color: #8ec5fc;
   background-image: linear-gradient(
-    to top,
-    #bdc2e8 20%,
-    hsl(260, 40%, 85%) 100%
+    10deg,
+    hsl(220, 30%, 70%) 0%,
+    hsl(215, 35%, 85%) 25%,
+    hsl(220, 70%, 85%) 85%,
+    hsl(240, 85%, 80%) 100%
   );
 }
 

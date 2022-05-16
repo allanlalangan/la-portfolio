@@ -1,7 +1,11 @@
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  height: 50%;
+  height: 25%;
+}
+
+.skills__primary .icon {
+  font-size: 3rem;
 }
 
 .icon {

@@ -1,5 +1,6 @@
 .projects__section {
-  height: 50%;
+  display: flex;
+  height: 100%;
 }
 
 .projects__grid {
@@ -16,4 +17,7 @@
   box-shadow: var(--box-shadow);
 
   cursor: pointer;
+
+  border-radius: 0.5rem;
+  padding: 1rem;
 }

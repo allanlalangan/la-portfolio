@@ -9,6 +9,7 @@ import { projects } from '../../static/portfolioData';
 const Projects = () => {
   return (
     <section className={`${styles['projects__section']}`}>
+      <h2>Selected Works</h2>
       <ul className={styles['projects__grid']}>
         {projects.map(({ title, description, tech, i }) => (
           <Link

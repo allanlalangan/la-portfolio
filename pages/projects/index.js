@@ -5,7 +5,7 @@ const ProjectsPage = () => {
   return (
     <>
       <Projects />
-      <Skills />
+      {/* <Skills /> */}
     </>
   );
 };

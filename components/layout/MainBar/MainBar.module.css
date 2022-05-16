@@ -6,5 +6,5 @@
   align-items: center;
   justify-content: space-between;
   /* box-shadow: var(--header-shadow); */
-  background-color: var(--prim-color);
+  background-color: var(--prim-dark);
 }
