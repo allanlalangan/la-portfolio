@@ -7,25 +7,32 @@
 
 .hero-text {
   z-index: 2;
-  background-color: var(--light-grey);
+  /* background-color: var(--light-grey); */
   width: 50%;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  box-shadow: var(--box-shadow);
+  /* box-shadow: var(--box-shadow); */
 }
 
-.hero-text > h1 {
+.hero-text__greeting {
+  font-weight: 400;
+  color: var(--prim-color);
+}
+
+.hero-text__name {
+  margin-left: 2rem;
   z-index: 5;
   color: var(--ter-color);
   font-size: 4rem;
   font-weight: 1000;
   line-height: 1;
 }
-.hero-text > h3 {
+.hero-text__title {
   text-transform: uppercase;
+  color: var(--prim-color);
   letter-spacing: 2px;
 }
 

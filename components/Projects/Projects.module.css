@@ -1,0 +1,19 @@
+.projects__section {
+  height: 50%;
+}
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+
+  width: 75%;
+  height: 100%;
+  margin: auto;
+}
+
+.project__link {
+  box-shadow: var(--box-shadow);
+
+  cursor: pointer;
+}

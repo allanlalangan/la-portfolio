@@ -8,8 +8,8 @@ import { projects } from '../../static/portfolioData';
 // nested inside <main> tag
 const Projects = () => {
   return (
-    <section className={`${styles['projects-section']}`}>
-      <ul>
+    <section className={`${styles['projects__section']}`}>
+      <ul className={styles['projects__grid']}>
         {projects.map(({ title, description, tech, i }) => (
           <Link
             key={i}
@@ -20,6 +20,7 @@ const Projects = () => {
             passHref={true}
           >
             <li
+              className={styles['project__link']}
               key={i}
               title={title}
               // description={description}
