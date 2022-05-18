@@ -56,10 +56,10 @@ body {
   font-family: 'Work Sans';
   background-color: #8ec5fc;
   background-image: linear-gradient(
-    10deg,
-    hsl(220, 30%, 70%) 0%,
-    hsl(215, 35%, 85%) 25%,
-    hsl(220, 70%, 85%) 85%,
+    25deg,
+    hsl(220, 95%, 80%) 0%,
+    hsl(220, 70%, 85%) 25%,
+    hsl(215, 70%, 80%) 75%,
     hsl(240, 85%, 80%) 100%
   );
 }
