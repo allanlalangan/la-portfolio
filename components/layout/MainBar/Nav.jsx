@@ -14,6 +14,14 @@ const Nav = () => {
             Projects
           </li>
         </Link>
+        <Link href='/skills' passHref={true}>
+          <li
+            className={`${styles['nav-link']}
+          ${styles['start-link']}`}
+          >
+            Skills
+          </li>
+        </Link>
         <Link href='/' passHref={true}>
           <li className={styles['nav-link']}>Contact</li>
         </Link>

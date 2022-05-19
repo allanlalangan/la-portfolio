@@ -17,19 +17,39 @@
 }
 
 .hero-text__greeting {
+  /* font-family: 'Coustard', serif; */
+  /* line-height: 1; */
   font-weight: 400;
   color: var(--prim-dark);
 }
 
+.hero-name__container {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
 .hero-text__name {
-  margin-left: 2rem;
+  font-family: 'Coustard', serif;
   z-index: 5;
   color: var(--sec-color);
   font-size: 4rem;
-  font-weight: 750;
-  line-height: 1;
+  font-weight: 1000;
 }
+
+.alias {
+  letter-spacing: 2px;
+  margin: 0 3rem;
+  padding: 0.5rem 2rem;
+  z-index: 5;
+  background-color: var(--sec-color);
+  color: var(--default-header-bg);
+  font-size: 4rem;
+  font-weight: 1000;
+  border-radius: 2rem 1rem 2rem 1rem;
+}
+
 .hero-text__title {
+  padding: 1rem;
   text-transform: uppercase;
   color: var(--prim-color);
   letter-spacing: 2px;
