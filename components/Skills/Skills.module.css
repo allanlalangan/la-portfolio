@@ -1,13 +1,41 @@
 .skills-grid {
+  width: 100%;
+  height: 100%;
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  height: 25%;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.skills__primary .icon {
-  font-size: 3rem;
+.skills__primary {
+  grid-column: span 3;
 }
 
-.icon {
+.skills__secondary {
+  grid-column: span 2;
+}
+.skills__tertiary {
+  grid-column: span 1;
+}
+.skills__primary .skill-icon {
+  font-size: 6rem;
+}
+.skills__secondary .skill-icon {
+  font-size: 3.5rem;
+}
+
+.skills__tertiary .skill-icon {
+  font-size: 2.5rem;
+}
+
+.skill-icon {
   font-size: 1.5rem;
+}
+
+.skill-caption {
+}
+
+._caption-title {
+}
+
+._caption-summary {
 }
